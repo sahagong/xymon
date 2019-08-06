@@ -18,6 +18,6 @@
  Solaris 10/x86 (using Sun Freeware)  
  Mac OSX  
 
-**perl기반이며, log또는 cfg파일로 관리되어 php, mysql 설치 필요없음  
-**gabia의 경우에는 아래 로직으로 처리되며, 관리페이지 접속이 필요하여 APM 모두 필요. 
+**perl기반이며, log또는 cfg파일로 관리되어 php, mysql 설치 필요없음**  
+**gabia의 경우에는 아래 로직으로 처리되며, 관리페이지 접속이 필요하여 APM 모두 필요.**
 
