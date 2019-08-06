@@ -29,3 +29,10 @@ $ yum install openssl-devel
 $ yum install openldap-devel 
 $ yum install fping  
 ```
+
+
+```sh
+$ cd dillinger
+$ npm install -d
+$ node app
+```
