@@ -116,3 +116,13 @@ HTTPDGID=apache
 $ make;make install
 ```
 ![텍스트](https://github.com/sahagong/xymon/blob/master/img/2.jpg)
+
+#### 5.	apache 환경파일 설정:
+![텍스트](https://github.com/sahagong/xymon/blob/master/img/3.jpg)
+
+#### 6.	WEB 환경파일 수정
+* httpd.conf
+![텍스트](https://github.com/sahagong/xymon/blob/master/img/4.jpg)
+
+*	xymon-apache.conf
+![텍스트](https://github.com/sahagong/xymon/blob/master/img/5.jpg)
