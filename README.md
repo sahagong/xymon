@@ -75,3 +75,40 @@ hat URL will you use for the Xymon webpages [/xymon]?      (Enter)
  ex) http://xymon.sahagong.com/xymon <--- 같은 형태로 alias가 걸림.
 (추후 xymon_httpd.conf 수정해주면 됨)
 ```
+
+```sh
+####################################################################
+# Toplevel dir
+XYMONTOPDIR = /home/xymon
+# Server data dir for hist/ etc.
+XYMONVAR = /home/xymon/data
+# CGI scripts go in CGIDIR
+CGIDIR = /home/xymon/cgi-bin
+# Admin CGI scripts go in SECURECGIDIR
+SECURECGIDIR = /home/xymon/cgi-secure
+# Where to put logfiles
+XYMONLOGDIR = /var/log/xymon
+# Where to install manpages
+MANROOT = /usr/local/man
+# How to run fping or xymonping
+FPING = xymonping
+
+# Username running Xymon
+XYMONUSER = xymon
+# Xymon server hostname
+XYMONHOSTNAME = bb2.gabia.com
+# Xymon server IP-address
+XYMONHOSTIP = 211.115.83.232
+# Xymon server OS
+XYMONHOSTOS = linux
+
+# URL for Xymon webpages
+XYMONHOSTURL = /xymon
+# URL for Xymon CGIs
+XYMONCGIURL = /xymon-cgi
+# URL for Xymon Admin CGIs
+SECUREXYMONCGIURL = /xymon-seccgi
+# Webserver group-ID
+HTTPDGID=apache
+####################################################################
+```
