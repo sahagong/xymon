@@ -98,7 +98,7 @@ XYMONUSER = xymon
 # Xymon server hostname
 XYMONHOSTNAME = xymon.sahagong.com
 # Xymon server IP-address
-XYMONHOSTIP = 127.0.0.0
+XYMONHOSTIP = 127.0.0.0 "xymon 설치 서버IP"
 # Xymon server OS
 XYMONHOSTOS = linux
 
