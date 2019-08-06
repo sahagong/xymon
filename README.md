@@ -65,4 +65,4 @@ $ yum install fping
 $./configure.server
 
 ```
-[![텍스트](https://github.com/sahagong/xymon/blob/master/img/1.jpg)
+![텍스트](https://github.com/sahagong/xymon/blob/master/img/1.jpg)
