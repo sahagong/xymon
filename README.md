@@ -63,7 +63,10 @@ $ yum install fping
 #### 4.	Xymon 설치:
 ```sh
 $./configure.server
+```
+![텍스트](https://github.com/sahagong/xymon/blob/master/img/1.jpg)
 
+```sh
 Do you want to be able to test SSL-enabled services (y) ? n
 Do you want to be able to test LDAP servers (y) ? n
 What userid will be running Xymon [xymon] ? (Enter)
@@ -71,6 +74,4 @@ Where do you want the Xymon installation [/home/xymon] ? (Enter)
 hat URL will you use for the Xymon webpages [/xymon]?      (Enter)
  ex) http://xymon.sahagong.com/xymon <--- 같은 형태로 alias가 걸림.
 (추후 xymon_httpd.conf 수정해주면 됨)
-
 ```
-![텍스트](https://github.com/sahagong/xymon/blob/master/img/1.jpg)
