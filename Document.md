@@ -18,6 +18,6 @@ Solaris 10/x86 (using OpenCSW)
 Solaris 10/x86 (using Sun Freeware)
 `Mac OSX
 
-##### perl기반이며, log또는 cfg파일로 관리되어 php, mysql 설치 필요없음
-##### 별도의 관리자 페이지를 구축하여 사용하는 경우, APM 모두 필요. 
+***** perl기반이며, log또는 cfg파일로 관리되어 php, mysql 설치 필요없음
+***** 별도의 관리자 페이지를 구축하여 사용하는 경우, APM 모두 필요. 
 
