@@ -59,3 +59,9 @@ $ yum install openssl-devel
 $ yum install openldap-devel 
 $ yum install fping  
 ```
+
+#### 4.	Xymon 설치:
+```sh
+./configure.server
+
+```
