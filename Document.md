@@ -23,9 +23,9 @@
 
 #### 2.	패키지 설치:
 ```sh
-yum install pcre-devel  
-yum install rrdtool-devel**  
-yum install openssl-devel**  
-yum install openldap-devel**  
-yum install fping**  
+$ yum install pcre-devel  
+$ yum install rrdtool-devel  
+$ yum install openssl-devel  
+$ yum install openldap-devel 
+$ yum install fping  
 ```
