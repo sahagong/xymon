@@ -13,7 +13,7 @@ BBMON에서 사용했던 bb agent와 호환이 가능하여 BBMON 사용중인 �
   - client-local.cfg(xymon client필요시 설정)
   - columndoc.csv(모니터링 컬럼 리스트)
   - combo.cfg(HA cluster 모니터링 설정)
-  - cookies.session(쿠킹세션 모니터링 설정)
+  - cookies.session(cookies세션 모니터링 설정)
   - critical.cfg
   - critical.cfg.bak
   - graphs.cfg(rrd 그래프 옵션 설정)
