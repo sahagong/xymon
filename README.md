@@ -62,7 +62,7 @@ $ yum install fping
 
 #### 4.	Xymon 설치:
 ```sh
-./configure.server
-[![텍스트](https://github.com/sahagong/xymon/blob/master/img/1.jpg)
+$./configure.server
 
 ```
+[![텍스트](https://github.com/sahagong/xymon/blob/master/img/1.jpg)
