@@ -4,8 +4,8 @@ xymon은 기존 BBMON과 유사한 monitering opensource 입니다.
 쉽고 간단한 설치 및 config로 agent를 통한 모니터링이 가능합니다.  
 BBMON에서 사용했던 bb agent와 호환이 가능하여 BBMON 사용중인 시스템에서 client 설치 없이 사용 가능합니다.
 ### 구성
-* 기반언어: perl
-* 환경설정: cfg 파일
+* **기반언어**: perl
+* **환경설정**: cfg 파일
   - alerts.cfg(SMS, EMAIL 알람설정 파일)  
   - analysis.cfg(모니터링 임계치 설정파일)
   - backup(xymon관련 없음)
