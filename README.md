@@ -32,7 +32,7 @@ BBMON에서 사용했던 bb agent와 호환이 가능하여 BBMON 사용중인 �
 #### 1. 환경
 - OS: CentOS release 6.9(64bit)
 - XYMON: xymon-4.3.28
-- WEB: Apache/2.2.15, DB: maria-10.0.38, php-5.6.25(별도의 관리자 페이지 구축시에만 필요)
+- WEB: Apache/2.2.15, DB: maria-10.0.38, php-5.6.25( DB 및 PHP는 별도의 관리자 페이지 구축시에만 필요)
 
 #### 2.	OS 지원(xymon-server 설치 가능 OS)
 * Red Hat Enterprise Linux 6 / CentOS 6  
@@ -63,6 +63,14 @@ $ yum install fping
 #### 4.	Xymon 설치:
 ```sh
 $./configure.server
+
+Do you want to be able to test SSL-enabled services (y) ? n
+Do you want to be able to test LDAP servers (y) ? n
+What userid will be running Xymon [xymon] ? (Enter)
+Where do you want the Xymon installation [/home/xymon] ? (Enter)
+hat URL will you use for the Xymon webpages [/xymon]?      (Enter)
+ ex) http://xymon.sahagong.com/xymon <--- 같은 형태로 alias가 걸림.
+(추후 xymon_httpd.conf 수정해주면 됨)
 
 ```
 ![텍스트](https://github.com/sahagong/xymon/blob/master/img/1.jpg)
