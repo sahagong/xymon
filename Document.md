@@ -7,26 +7,26 @@ BBMON에서 사용했던 bb agent와 호환이 가능하여 BBMON 사용중인 �
 * 기반언어: perl
 * 환경설정: cfg 파일
   - alerts.cfg(SMS, EMAIL 알람설정 파일)  
-- analysis.cfg(모니터링 임계치 설정파일)
-- backup(xymon관련 없음)
-- cgioptions.cfg(xymon perl 옵션설정)
-- client-local.cfg(xymon client필요시 설정)
-- columndoc.csv(모니터링 컬럼 리스트)
-- combo.cfg(HA cluster 모니터링 설정)
-- cookies.session(쿠킹세션 모니터링 설정)
-- critical.cfg
-- critical.cfg.bak
-- graphs.cfg(rrd 그래프 옵션 설정)
-- holidays.cfg(기간단위 모니터링 예외설정)	- hosts.cfg(모니터링 대상리스트)
-- protocols.cfg(포트, process 모니터링 설정)
-- rrddefinitions.cfg(rrd 데이터 누적 텀)
-- snmpmibs.cfg(MID, OID로 모니터링 추가)
-- tasks.cfg(xymon 실행 스케줄 설정)
-- tasks.d(tasks.cfg include되어 실행됨)
-- xymon-apache.conf(apache환경파일)
-- xymonmenu.cfg(xymon web페이지 메뉴 - 수정)
-- xymonmenu.cfg_ori(xymon web페이지 메뉴 원본)
-- xymonserver.cfg(xymon 환경설정 파일)
+  - analysis.cfg(모니터링 임계치 설정파일)
+  - backup(xymon관련 없음)
+  - cgioptions.cfg(xymon perl 옵션설정)
+  - client-local.cfg(xymon client필요시 설정)
+  - columndoc.csv(모니터링 컬럼 리스트)
+  - combo.cfg(HA cluster 모니터링 설정)
+  - cookies.session(쿠킹세션 모니터링 설정)
+  - critical.cfg
+  - critical.cfg.bak
+  - graphs.cfg(rrd 그래프 옵션 설정)
+  - holidays.cfg(기간단위 모니터링 예외설정)	- hosts.cfg(모니터링 대상리스트)
+  - protocols.cfg(포트, process 모니터링 설정)
+  - rrddefinitions.cfg(rrd 데이터 누적 텀)
+  - snmpmibs.cfg(MID, OID로 모니터링 추가)
+  - tasks.cfg(xymon 실행 스케줄 설정)
+  - tasks.d(tasks.cfg include되어 실행됨)
+  - xymon-apache.conf(apache환경파일)
+  - xymonmenu.cfg(xymon web페이지 메뉴 - 수정)
+  - xymonmenu.cfg_ori(xymon web페이지 메뉴 원본)
+  - xymonserver.cfg(xymon 환경설정 파일)
 
 
 #### 1. 환경
