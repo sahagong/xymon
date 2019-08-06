@@ -2,7 +2,7 @@
 ### 환경
 - OS: CentOS release 6.9(64bit)
 - XYMON: xymon-4.3.28
-- WEB: Apache/2.2.15, DB: maria-10.0.38, php-5.6.25
+- WEB: Apache/2.2.15, DB: maria-10.0.38, php-5.6.25(별도의 관리자 페이지 구축시에만 필요)
 
 #### 1.	OS 지원(xymon-server 설치 가능 OS)
 Red Hat Enterprise Linux 6 / CentOS 6
@@ -18,7 +18,6 @@ Solaris 10/x86 (using OpenCSW)
 Solaris 10/x86 (using Sun Freeware)
 `Mac OSX
 
-##### perl기반이며, log또는 cfg파일로 관리되어 php, mysql 설치 필요없음 \
-##### gabia의 경우에는 아래 로직으로 처리되며, 관리페이지 접속이 필요하여 APM 모두 필요. 
- - 관리페이지 URL: http://bb2.gabia.com/admin(ID:bb_admin, PW: 잘하자공지를$#&))
- - apm버전: mysql-5.1.63, php-5.2.14, httpd-2.2.15
+##### perl기반이며, log또는 cfg파일로 관리되어 php, mysql 설치 필요없음
+##### 별도의 관리자 페이지를 구축하여 사용하는 경우, APM 모두 필요. 
+
