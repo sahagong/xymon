@@ -112,3 +112,4 @@ SECUREXYMONCGIURL = /xymon-seccgi
 HTTPDGID=apache
 ####################################################################
 ```
+![텍스트](https://github.com/sahagong/xymon/blob/master/img/2.jpg)
