@@ -96,9 +96,9 @@ FPING = xymonping
 # Username running Xymon
 XYMONUSER = xymon
 # Xymon server hostname
-XYMONHOSTNAME = bb2.gabia.com
+XYMONHOSTNAME = xymon.sahagong.com
 # Xymon server IP-address
-XYMONHOSTIP = 211.115.83.232
+XYMONHOSTIP = 127.0.0.0
 # Xymon server OS
 XYMONHOSTOS = linux
 
