@@ -6,7 +6,7 @@ BBMON에서 사용했던 bb agent와 호환이 가능하여 BBMON 사용중인 �
 ### 구성
 * **기반언어**: perl
 * **환경설정**: cfg 파일  
- ####### - alerts.cfg(SMS, EMAIL 알람설정 파일)  
+ ####### alerts.cfg(SMS, EMAIL 알람설정 파일)  
   - analysis.cfg(모니터링 임계치 설정파일)
   - backup(xymon관련 없음)
   - cgioptions.cfg(xymon perl 옵션설정)
