@@ -126,3 +126,7 @@ $ make;make install
 
 *	xymon-apache.conf  
 ![텍스트](https://github.com/sahagong/xymon/blob/master/img/5.jpg)
+
+#### 8.	Xymon 환경설정 파일 및 수정 값.
+##### 1)	task.cfg(xymon job 실행 스케줄 파일)
+![텍스트](https://github.com/sahagong/xymon/server/etc/task.cfg)
