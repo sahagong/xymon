@@ -5,7 +5,7 @@
 - WEB: Apache/2.2.15, DB: maria-10.0.38, php-5.6.25(별도의 관리자 페이지 구축시에만 필요)
 
 #### 1.	OS 지원(xymon-server 설치 가능 OS)
- Red Hat Enterprise Linux 6 / CentOS 6  
+* [Red Hat Enterprise Linux 6 / CentOS 6]
  Red Hat Enterprise Linux 5 / CentOS 5  
  Red Hat Enterprise Linux 4 / CentOS 4  
  Red Hat Enterprise Linux 3 / CentOS 3  
