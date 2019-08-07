@@ -10,8 +10,9 @@ group dev-test (http://xymon.sahagong.com 전체 화면에 표시될 group명)
  (2) display 그룹 설정내용  
    - lspage    total  => devtest 리스트 display 그룹명  
     (124.124.124.124 dev-php  testip # LS:total  NOCOLUMNS:….)  
+
+**/home/xymon/server/ext/ls-display.sh**
 ```sh
-/home/xymon/server/ext/ls-display.sh
 #/bin/sh
 
 **total list**
@@ -21,7 +22,7 @@ $XYMONHOME/bin/xymongen \
 ```
  - ospage    mana => dev 리스트 display 그룹명  
    (124.124.124.125 dev-125  testip # OS:mana  NOCOLUMNS:…)  
-/home/xymon/server/ext/mana-display.sh  
+**/home/xymon/server/ext/mana-display.sh**  
 ```sh
 #/bin/sh
 ## manage list
