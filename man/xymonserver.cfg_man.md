@@ -8,5 +8,5 @@ User가 변수를 정의하여 xymon에서 사용하는 cfg파일에 호출하�
 
 ![텍스트](https://github.com/sahagong/xymon/blob/master/img/xymonserver.cfg.jpg)  
 
-DB정보 정의  
+- DB정보 정의  
 ![텍스트](https://github.com/sahagong/xymon/blob/master/img/xymonserver.cfg_DB.jpg)
