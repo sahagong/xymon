@@ -48,7 +48,7 @@ function exclude_list($server_name){
 
 	require("include/db_class.inc");
 	
-	//admin.gabia.comÀÇ T_SERVER_GROUP ¿¡¼­ ±×·ì ¸®½ºÆ® °¡Á®¿È
+	//admin.gabia.comì˜ T_SERVER_GROUP ì—ì„œ ê·¸ë£¹ ë¦¬ìŠ¤íŠ¸ ê°€ì ¸ì˜´
 	require_once("include/admin_dbconn.php");
 
 	//$BB_SERVER_IP = "";
@@ -185,10 +185,8 @@ function exclude_list($server_name){
 	}
 	$my_db->close();
 
-	//shell_exec("sed -i -e '1s/^/'\"aaaaa\"'\n/' -e '1s/^/'\"bbbb\"'\n/' -e '2s/^/'\"\"'\n/' -e '2s/^/'\"\"'\n/'");
 	exec("cp $tmp_file2 $XYMONHOME/etc/hosts.cfg");
 
-	//print_r($error);
 
 	shell_exec('sed -i -e 1s/^/"noflap=colo144-112,colo192-140,colo213-177,server179-35"\\\n/ -e 1s/^/"ospage    mana"\\\n/ -e 1s/^/"lspage    total"\\\n/ -e 2s/^/""\\\n/ -e 2s/^/""\\\n/ /home/xymon/server/etc/hosts.cfg; \
 			sed -i -e 1s/^/"ospage    mana"\\\n/ -e 1s/^/"lspage    total"\\\n/ -e 2s/^/""\\\n/ -e 2s/^/""\\\n/ '.$tmp_file2);
