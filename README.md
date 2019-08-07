@@ -129,4 +129,4 @@ $ make;make install
 
 #### 8.	Xymon 환경설정 파일 및 수정 값.
 ##### 1)	task.cfg(xymon job 실행 스케줄 파일)
-![tesks.cfg 상세설명](https://github.com/sahagong/xymon/blob/master/man/test.cfg_man.md)
+![tsks.cfg 상세설명](https://github.com/sahagong/xymon/blob/master/man/test.cfg_man.md)
