@@ -2,6 +2,34 @@
 ### hosts.cfg  
 xymon에서 모니터링 되는 서버 리스트가 정의되는 파일이다.
 ![텍스트](https://github.com/sahagong/xymon/blob/master/img/hosts.cfg.jpg)  
+
+ (1) host 설정 내용
+group KIDC-서버호스팅(http://bb2.gabia.com 전체 화면에 표시될 group명)
+  - 103.60.124.13(서버IP)   Quick124-13(호스트명)  testip # LS:total(display 그룹명)  NOCOLUMNS:cpu,disk,ftp,http,info,memory,ms-sql-s,msgs,mssql,mysql,pop3,procs,queue,smtp,ssh,trends,io (모니터링 불필요 컬럼)
+ (2) display 그룹 설정내용  
+  - lspage    total   비위탁 리스트 display 그룹명  
+    (222.231.30.103  colo_hub30-103  testip # LS:total  NOCOLUMNS:….)  
+```sh
+/home/xymon/server/ext/ls-display.sh
+#/bin/sh
+
+**total list**
+$XYMONHOME/bin/xymongen \
+--pageset=ls --template=ls \
+--page-title=total --critical-reds-only $XYMONHOME/www/ls
+```
+ - ospage    mana => 위탁 리스트 display 그룹명  
+   (121.254.169.155 server7-155  testip # OS:mana  NOCOLUMNS:…)  
+/home/xymon/server/ext/mana-display.sh  
+```sh
+#/bin/sh
+## manage list
+$XYMONHOME/bin/xymongen \
+--pageset=os --template=os \
+--page-title=mana --critical-reds-only $XYMONHOME/www/mana
+```
+
+
 ### protocols.cfg
 xymon의 경우 기본적으로 체크하는 프로세서(http, ping, ftp..)가 있으며, 이외 추가로 포트를 모니터링 할 수 있다.
 
