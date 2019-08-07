@@ -5,8 +5,7 @@ xymon에서 모니터링 되는 서버 리스트가 정의되는 파일이다.
 
  (1) host 설정 내용  
 group dev-test (http://xymon.sahagong.com 전체 화면에 표시될 group명)  
-  - 123.123.123.123(서버IP)   dev-test123(호스트명)  testip # LS:total(display 그룹명)  NOCOLUMNS:cpu,disk,ftp,http,info,memory,ms-sql-s,msgs,mssql,mysql,pop3,procs,queue,smtp,ssh,trends,io (모니터링 불필요 컬럼)  
- (2) display 그룹 설정내용  
+  - 123.123.123.123(서버IP)   dev-test123(호스트명)  testip # LS:total(display 그룹명)  NOCOLUMNS:cpu,disk,ftp,http,info,memory,ms-sql-s,msgs,mssql,mysql,pop3,procs,queue,smtp,ssh,trends,io (모니터링 불필요 컬럼)  (2) display 그룹 설정내용  
   - lspage    total  => devtest 리스트 display 그룹명  
     (124.124.124.124 dev-php  testip # LS:total  NOCOLUMNS:….)  
 ```sh
