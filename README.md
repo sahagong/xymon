@@ -130,3 +130,13 @@ $ make;make install
 #### 8.	Xymon 환경설정 파일 및 수정 값.
 ##### 1)	task.cfg(xymon job 실행 스케줄 파일)
 ![task.cfg 상세설명](https://github.com/sahagong/xymon/blob/master/man/test.cfg_man.md)
+
+#### 9.	Xymon 디렉토리 별 리스트 및 사용용도
+|-	bin  	=> xymon 실행파일 저장 디렉토리                         |
+|-	download                                                    |
+|-	etc		=> xymon cfg 설정파일 저장 디렉토리                     |
+|-	ext		=> user가 생성한 실행파일 저장 디렉토리                  |
+|-	tmp		=> 각 서비스별 pid 및 임시파일 저장 디렉토리             |
+|-	web		=> 각 웹페이지에 대한 header 저장 디렉토리               |
+|-	www	=> bb2.gabia.com main페이지 및 서비스별 페이지 저장 디렉토리|
+
