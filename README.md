@@ -128,8 +128,10 @@ $ make;make install
 ![텍스트](https://github.com/sahagong/xymon/blob/master/img/5.jpg)
 
 #### 8.	Xymon 환경설정 파일 및 수정 값.
- (1)	task.cfg(xymon job 실행 스케줄 파일)  
+  (1)	task.cfg(xymon job 실행 스케줄 파일)  
 ![task.cfg 상세설명](https://github.com/sahagong/xymon/blob/master/man/test.cfg_man.md)
+  (2) hosts.cfg, protocols.cfg
+![hosts.cfg, protocols.cfg 상세설명](https://github.com/sahagong/xymon/blob/master/man/etc-cfg.md)
 
 #### 9.	Xymon 디렉토리 별 리스트 및 사용용도
 | Command | Description |
