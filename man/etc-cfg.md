@@ -1,5 +1,7 @@
 
 ### hosts.cfg  
+xymon에서 모니터링 되는 서버 리스트가 정의되는 파일이다.
+![텍스트](https://github.com/sahagong/xymon/blob/master/img/hosts.cfg.jpg)  
 ### protocols.cfg
 xymon의 경우 기본적으로 체크하는 프로세서(http, ping, ftp..)가 있으며, 이외 추가로 포트를 모니터링 할 수 있다.
 
