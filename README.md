@@ -134,16 +134,12 @@ $ make;make install
 #### 9.	Xymon 디렉토리 별 리스트 및 사용용도
 | Command | Description |
 |---------|-------------|
-| -	bin  	=> xymon 실행파일 저장 디렉토리 |
-| -	download |
-| -	etc		=> xymon cfg 설정파일 저장 디렉토리 |
-| -	ext		=> user가 생성한 실행파일 저장 디렉토리 |
-| -	tmp		=> 각 서비스별 pid 및 임시파일 저장 디렉토리 |
-| -	web		=> 각 웹페이지에 대한 header 저장 디렉토리 |
-| -	www	=> bb2.gabia.com main페이지 및 서비스별 페이지 저장 디렉토리|
+| bin  	| xymon 실행파일 저장 디렉토리 |
+| download |
+| etc		| xymon cfg 설정파일 저장 디렉토리 |
+| ext		| user가 생성한 실행파일 저장 디렉토리 |
+| tmp		| 각 서비스별 pid 및 임시파일 저장 디렉토리 |
+| web		| 각 웹페이지에 대한 header 저장 디렉토리 |
+| www	| bb2.gabia.com main페이지 및 서비스별 페이지 저장 디렉토리|
 
-
-
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
 
