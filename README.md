@@ -140,3 +140,9 @@ $ make;make install
 | -	web		=> 각 웹페이지에 대한 header 저장 디렉토리 |
 | -	www	=> bb2.gabia.com main페이지 및 서비스별 페이지 저장 디렉토리|
 
+
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
