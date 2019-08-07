@@ -7,4 +7,4 @@ User가 변수를 정의하여 xymon에서 사용하는 cfg파일에 호출하�
 **관리자 페이지 모니터링 IP 및 host등록 --> 관리자 페이지 DB 기록 --> make-hosts.php로 hosts.cfg 생성.(tasks.cfg에 스케줄 정의)**
 
 ![텍스트](https://github.com/sahagong/xymon/blob/master/img/xymonserver.cfg.jpg)
-![텍스트](https://github.com/sahagong/xymon/blob/master/img/xymonserver_DB.cfg.jpg)
+![텍스트](https://github.com/sahagong/xymon/blob/master/img/xymonserver.cfg_DB.jpg)
