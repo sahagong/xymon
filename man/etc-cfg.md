@@ -21,7 +21,8 @@ $XYMONHOME/bin/xymongen \
 --page-title=total --critical-reds-only $XYMONHOME/www/ls
 ```
  - ospage    mana => dev 리스트 display 그룹명  
-   (124.124.124.125 dev-125  testip # OS:mana  NOCOLUMNS:…)  
+   (124.124.124.125 dev-125  testip # OS:mana  NOCOLUMNS:…) 
+   
 **/home/xymon/server/ext/mana-display.sh**  
 ```sh
 #/bin/sh
