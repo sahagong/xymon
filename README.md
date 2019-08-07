@@ -132,6 +132,8 @@ $ make;make install
 ![task.cfg 상세설명](https://github.com/sahagong/xymon/blob/master/man/test.cfg_man.md)
 
 #### 9.	Xymon 디렉토리 별 리스트 및 사용용도
+| Command | Description |
+|---------|-------------|
 | -	bin  	=> xymon 실행파일 저장 디렉토리 |
 | -	download |
 | -	etc		=> xymon cfg 설정파일 저장 디렉토리 |
@@ -141,7 +143,7 @@ $ make;make install
 | -	www	=> bb2.gabia.com main페이지 및 서비스별 페이지 저장 디렉토리|
 
 
-| Command | Description |
+
 | git status | List all new or modified files |
 | git diff | Show file differences that haven't been staged |
 
