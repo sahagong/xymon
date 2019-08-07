@@ -18,6 +18,12 @@ User가 변수를 정의하여 xymon에서 사용하는 cfg파일에 호출하�
   - DELAYYELLOW="memory:80,disk:90,cpu:90,procs:3" 
 		   (proc  3회이상 fail이거나,  memory/disk/cpu  임계치 이상이면 yellow)  
 
+- Conn 체크 명령어 지정(fping 또는 xymonping)  
+![텍스트](https://github.com/sahagong/xymon/blob/master/img/conn_check.jpg)
+
+- Page에서 hostname 클릭 시 운영포털 정보 popup  
+![텍스트](https://github.com/sahagong/xymon/blob/master/img/pagepopup.jpg)
+
 
 
 
