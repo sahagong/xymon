@@ -11,7 +11,7 @@ User가 변수를 정의하여 xymon에서 사용하는 cfg파일에 호출하�
 - DB정보 정의  
 ![텍스트](https://github.com/sahagong/xymon/blob/master/img/xymonserver.cfg_DB.jpg)
 
-- Check 횟수에 따른 display 기준 정의
+- Check 횟수에 따른 display 기준 정의  
 ![텍스트](https://github.com/sahagong/xymon/blob/master/img/check_display.jpg)  
 
 DELAYRED="conn:1,procs:3,http:1,memory:90,disk:95,cpu:95"
